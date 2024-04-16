@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            margin-bottom: 20px;
+        }
+
+        .quiz-container {
+            background-color: #ffffff;
+            border: 2px solid #000000;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .question {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+        }
+
+        .option {
+            margin-bottom: 10px;
+        }
+
+        .btn-container {
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Quiz sobre HTML, CSS e JavaScript</h1>
+
+        <div class="quiz-container">
+            <div class="question">O que significa HTML?</div>
+            <div class="options">
+                <div class="option"><input type="radio" name="resp" id="a"><label for="a">A- Hyper Text Markup Language</label></div>
+                <div class="option"><input type="radio" name="resp" id="b"><label for="b">B- Hyperlink and Text Markup Language</label></div>
+                <div class="option"><input type="radio" name="resp" id="c"><label for="c">C- Hyper Text Manipulation Language</label></div>
+                <div class="option"><input type="radio" name="resp" id="d"><label for="d">D- Hyper Transfer Markup Language</label></div>
+            </div>
+        </div>
+
+        <div class="quiz-container">
+            <div class="question">Qual a função do CSS?</div>
+            <div class="options">
+                <div class="option"><input type="radio" name="resposta" id="a1"><label for="a1">A - Conectar a página web ao servidor</label></div>
+                <div class="option"><input type="radio" name="resposta" id="b2"><label for="b2">B - Estilizar a página web</label></div>
+                <div class="option"><input type="radio" name="resposta" id="b3"><label for="b3">C - Definir o comportamento dinâmico de uma app web</label></div>
+                <div class="option"><input type="radio" name="resposta" id="b4"><label for="b4">D - Manipular dados em um banco de dados</label></div>
+            </div>
+        </div>
+
+        <div class="quiz-container">
+            <div class="question">Qual a função do JavaScript?</div>
+            <div class="options">
+                <div class="option"><input type="radio" name="rr" id="a1"><label for="a1">A - Definir estilos e layout da página</label></div>
+                <div class="option"><input type="radio" name="rr" id="b2"><label for="b2">B - Manipular a estrutura do documento HTML</label></div>
+                <div class="option"><input type="radio" name="rr" id="b3"><label for="b3">C - Realizar cálculos matemáticos no lado do servidor</label></div>
+                <div class="option"><input type="radio" name="rr" id="b4"><label for="b4">D - Adicionar interatividade e comportamento dinâmico</label></div>
+            </div>
+        </div>
+
+        <div class="btn-container">
+            <button id="btn">Enviar</button>
+        </div>
+    </div>
+</body>
+
+</html>
